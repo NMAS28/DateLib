@@ -7,16 +7,39 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7491E8A62615661E00F2437B /* DateLibExempleApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7491E8A52615661E00F2437B /* DateLibExempleApp.swift */; };
+		7491E8A82615661E00F2437B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7491E8A72615661E00F2437B /* ContentView.swift */; };
+		7491E8AA2615662000F2437B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7491E8A92615662000F2437B /* Assets.xcassets */; };
+		7491E8AD2615662000F2437B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7491E8AC2615662000F2437B /* Preview Assets.xcassets */; };
+		7491E8AF2615662000F2437B /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7491E8AE2615662000F2437B /* Persistence.swift */; };
+		7491E8B22615662000F2437B /* DateLibExemple.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 7491E8B02615662000F2437B /* DateLibExemple.xcdatamodeld */; };
 		74EDD8A826155A6800F341CF /* DateLib.h in Headers */ = {isa = PBXBuildFile; fileRef = 74EDD8A626155A6800F341CF /* DateLib.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		74FB791D26155E4D00018E33 /* DateLib.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74FB791C26155E4D00018E33 /* DateLib.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7491E8A32615661E00F2437B /* DateLibExemple.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DateLibExemple.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7491E8A52615661E00F2437B /* DateLibExempleApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateLibExempleApp.swift; sourceTree = "<group>"; };
+		7491E8A72615661E00F2437B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		7491E8A92615662000F2437B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7491E8AC2615662000F2437B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		7491E8AE2615662000F2437B /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		7491E8B12615662000F2437B /* DateLibExemple.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = DateLibExemple.xcdatamodel; sourceTree = "<group>"; };
+		7491E8B32615662000F2437B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		74EDD8A326155A6800F341CF /* DateLib.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DateLib.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		74EDD8A626155A6800F341CF /* DateLib.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DateLib.h; sourceTree = "<group>"; };
 		74EDD8A726155A6800F341CF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		74FB791C26155E4D00018E33 /* DateLib.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateLib.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		7491E8A02615661E00F2437B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		74EDD8A026155A6800F341CF /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -27,10 +50,33 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7491E8A42615661E00F2437B /* DateLibExemple */ = {
+			isa = PBXGroup;
+			children = (
+				7491E8A52615661E00F2437B /* DateLibExempleApp.swift */,
+				7491E8A72615661E00F2437B /* ContentView.swift */,
+				7491E8A92615662000F2437B /* Assets.xcassets */,
+				7491E8AE2615662000F2437B /* Persistence.swift */,
+				7491E8B32615662000F2437B /* Info.plist */,
+				7491E8B02615662000F2437B /* DateLibExemple.xcdatamodeld */,
+				7491E8AB2615662000F2437B /* Preview Content */,
+			);
+			path = DateLibExemple;
+			sourceTree = "<group>";
+		};
+		7491E8AB2615662000F2437B /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				7491E8AC2615662000F2437B /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
 		74EDD89926155A6800F341CF = {
 			isa = PBXGroup;
 			children = (
 				74EDD8A526155A6800F341CF /* DateLib */,
+				7491E8A42615661E00F2437B /* DateLibExemple */,
 				74EDD8A426155A6800F341CF /* Products */,
 			);
 			sourceTree = "<group>";
@@ -39,6 +85,7 @@
 			isa = PBXGroup;
 			children = (
 				74EDD8A326155A6800F341CF /* DateLib.framework */,
+				7491E8A32615661E00F2437B /* DateLibExemple.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -48,6 +95,7 @@
 			children = (
 				74EDD8A626155A6800F341CF /* DateLib.h */,
 				74EDD8A726155A6800F341CF /* Info.plist */,
+				74FB791C26155E4D00018E33 /* DateLib.swift */,
 			);
 			path = DateLib;
 			sourceTree = "<group>";
@@ -66,6 +114,23 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
+		7491E8A22615661E00F2437B /* DateLibExemple */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7491E8B62615662000F2437B /* Build configuration list for PBXNativeTarget "DateLibExemple" */;
+			buildPhases = (
+				7491E89F2615661E00F2437B /* Sources */,
+				7491E8A02615661E00F2437B /* Frameworks */,
+				7491E8A12615661E00F2437B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DateLibExemple;
+			productName = DateLibExemple;
+			productReference = 7491E8A32615661E00F2437B /* DateLibExemple.app */;
+			productType = "com.apple.product-type.application";
+		};
 		74EDD8A226155A6800F341CF /* DateLib */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 74EDD8AB26155A6800F341CF /* Build configuration list for PBXNativeTarget "DateLib" */;
@@ -90,10 +155,15 @@
 		74EDD89A26155A6800F341CF /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftUpdateCheck = 1240;
 				LastUpgradeCheck = 1240;
 				TargetAttributes = {
+					7491E8A22615661E00F2437B = {
+						CreatedOnToolsVersion = 12.4;
+					};
 					74EDD8A226155A6800F341CF = {
 						CreatedOnToolsVersion = 12.4;
+						LastSwiftMigration = 1240;
 					};
 				};
 			};
@@ -111,11 +181,21 @@
 			projectRoot = "";
 			targets = (
 				74EDD8A226155A6800F341CF /* DateLib */,
+				7491E8A22615661E00F2437B /* DateLibExemple */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		7491E8A12615661E00F2437B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7491E8AD2615662000F2437B /* Preview Assets.xcassets in Resources */,
+				7491E8AA2615662000F2437B /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		74EDD8A126155A6800F341CF /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -126,16 +206,70 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		7491E89F2615661E00F2437B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7491E8B22615662000F2437B /* DateLibExemple.xcdatamodeld in Sources */,
+				7491E8AF2615662000F2437B /* Persistence.swift in Sources */,
+				7491E8A82615661E00F2437B /* ContentView.swift in Sources */,
+				7491E8A62615661E00F2437B /* DateLibExempleApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		74EDD89F26155A6800F341CF /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				74FB791D26155E4D00018E33 /* DateLib.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
+		7491E8B42615662000F2437B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"DateLibExemple/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = DateLibExemple/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = new.DateLibExemple;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7491E8B52615662000F2437B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"DateLibExemple/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = DateLibExemple/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = new.DateLibExemple;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 		74EDD8A926155A6800F341CF /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -261,6 +395,7 @@
 		74EDD8AC26155A6800F341CF /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
@@ -276,6 +411,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = new.DateLib;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -284,6 +420,7 @@
 		74EDD8AD26155A6800F341CF /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
@@ -307,6 +444,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		7491E8B62615662000F2437B /* Build configuration list for PBXNativeTarget "DateLibExemple" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7491E8B42615662000F2437B /* Debug */,
+				7491E8B52615662000F2437B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		74EDD89D26155A6800F341CF /* Build configuration list for PBXProject "DateLib" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -326,6 +472,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		7491E8B02615662000F2437B /* DateLibExemple.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				7491E8B12615662000F2437B /* DateLibExemple.xcdatamodel */,
+			);
+			currentVersion = 7491E8B12615662000F2437B /* DateLibExemple.xcdatamodel */;
+			path = DateLibExemple.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 74EDD89A26155A6800F341CF /* Project object */;
 }
